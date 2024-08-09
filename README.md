@@ -14,11 +14,11 @@ Code and Description of STORI model
 ## How to use
 We split STORI into two components:
 
-- rank-reid
+- rank-STORI
   - Framework: Pytorch
   - Training Resnet based Bi-LSTM network on source dataset
   - Learning to rank on target dataset
-- TrackViz
+- STORI
   - Dependencies: Some traditional libraries, including numpy, pickle, matplotlib, seaborn
   - Building spatial temporal model with visual classification results
   - STORI Fusion
